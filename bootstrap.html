@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+  <nav><a href="index.html">Inicio</a> | <a href="https://getbootstrap.com/" target="_blank">Sitio oficial</a></nav>
+  <h1>Bootstrap</h1>
+  <p><b>Descripción:</b> Bootstrap es el framework CSS más popular, desarrollado por Twitter. Permite crear páginas web responsive de manera sencilla usando su sistema de rejilla y múltiples componentes listos.</p>
+  <h2>Instalación</h2>
+  Para instalar Bootstrap en esta página debemos seguir los siguientes pasos:<br>
+  1. En index.html, dentro de <b>&lt;head&gt;</b> tenemos que añadir:<br>
+  &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"&gt;<br>
+  2. Justo antes de <b>&lt;/body&gt;</b> añadimos el bundle Java Script:<br>
+  &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"&gt;<br>
+  3. Para verificar que funciona, abrimos index.html y creamos un botón:<br>
+  &lt;button class="btn btn-primary">Prueba Bootstrap&lt;/button&gt;<br>
+  Si aparece el boton azul, es que funciona.
+  <h2>Componentes comunes</h2>
+  <h3>Botón</h3><pre>&lt;button class="btn btn-primary"&gt;Enviar&lt;/button&gt;</pre>
+  <h3>Formulario</h3><pre>&lt;input type="text" class="form-control" placeholder="Tu nombre"&gt;</pre>
+  <h3>Tarjeta</h3><pre>&lt;div class="card" style="width:18rem;"&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h5 class="card-title"&gt;Título&lt;/h5&gt;
+    &lt;p class="card-text"&gt;Contenido de la tarjeta.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</pre>
+  <h2>Ventajas</h2><ul><li>Gran comunidad y documentación.</li><li>Responsive automático.</li><li>Componentes listos.</li></ul>
+  <h2>Inconvenientes</h2><ul><li>Diseños repetitivos.</li><li>Depende de JS.</li></ul>
+</body>
+</html>
